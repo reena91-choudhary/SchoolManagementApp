@@ -23,7 +23,7 @@ body {
                                     <nav id="desktop-nav">
                                     	<ul>
 		                                  <li><a href="index.jsp">HOME</a></li>                                         
-		                                  <li> <a href="javascript:void(0)">ABOUT US </a>                                                                           
+		                                  <li> <a href='aboutus.html'>ABOUT US </a>                                                                           
 		                                  <li> <a href="javascript:void(0)">CLASSES </a>
 		                                  <li> <a href='teachers.html'>TEACHERS </a>                             
                                         </ul>
