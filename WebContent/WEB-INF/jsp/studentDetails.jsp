@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -20,30 +19,24 @@ th, td {
 </style>
 </head>
 <body>
-
-    
-<h2 align="center"> ${classDetails.getClassName()} Details</h2>
+<h2 align ="center"> Student Details</h2>
 <br>
 <br>
-<p align ="left"> Class Teacher : ${classDetails.getClassTeacher()}</p>
-<p align ="right"> Total Number of Students: ${classDetails.getStudents().size()}</p>
 <br>
-<br>
-
-<p align="left"> Student Names with their role numbers </p>
 <table>
 <tr>
-	<th>Name</th>
+	<th>Student Name</th>
     <th>Roll Number</th> 
+    <th> Student Unique Id</th>
 </tr>
-<c:forEach items="${classDetails.getStudents()}" var="student">
+
 <tr>
-	<td bgcolor="#cccccc"><a href=student/${student.getId()}>${student.getName()}</td>
-	<td bgcolor="#cccccc">${student.getRollNo()}</td>
+	<td bgcolor="#cccccc">${studentDetails.getName()}</td>
+	<td bgcolor="#cccccc">${studentDetails.getRollNo()}</td>
+	<td bgcolor="#cccccc">${studentDetails.getId()}</td>
 </tr>
-</c:forEach>
+
 
 </table>
- 
 </body>
 </html>

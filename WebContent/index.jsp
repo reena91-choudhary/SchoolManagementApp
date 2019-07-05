@@ -67,14 +67,14 @@ li a:hover, .dropdown:hover .schoolclasses {
                                            <a href="javascript:void(0)" class="schoolclasses">CLASSES </a>
                                          	 <div class ="dropdown-content">
                                           		<ul>
-		                                             <a href="class/0">NURSERY</a>
-		                                      		 <a href="class/1">LKG</a>
-													 <a href="class/2">UKG</a>
-		              								 <a href="class/3">CLASS 1</a>
-		              								 <a href="class/4">CLASS 2</a>
-		              								 <a href="class/5">CLASS 3</a>
-		              								 <a href="class/6">CLASS 4</a>
-		              								 <a href="class/7">CLASS 5</a>
+		                                             <a href="class/1">NURSERY</a>
+		                                      		 <a href="class/2">LKG</a>
+													 <a href="class/3">UKG</a>
+		              								 <a href="class/4">CLASS 1</a>
+		              								 <a href="class/5">CLASS 2</a>
+		              								 <a href="class/6">CLASS 3</a>
+		              								 <a href="class/7">CLASS 4</a>
+		              								 <a href="class/8">CLASS 5</a>
 	                                    								 
                                     			</ul>
                                     	 	</div>
