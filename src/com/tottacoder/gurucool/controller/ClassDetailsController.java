@@ -20,6 +20,8 @@ public ModelAndView getClassDetails(@PathVariable("id") int id){
 }
 
 
+
+
 	
 
 }

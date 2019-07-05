@@ -81,7 +81,21 @@ li a:hover, .dropdown:hover .schoolclasses {
                                     </li>
                                                                                                                         
 		                            
-		                                  <li> <a href='teachers.html'>TEACHERS </a>
+		                                  <li class="dropdown">
+                                           <a href="javascript:void(0)" class="subjects">SUBJECTS </a>
+                                         	 <div class ="dropdown-content">
+                                          		<ul>
+		                                             <a href="subject/1">MATHS</a>
+		                                      		 <a href="subject/2">PHYSICS</a>
+		                                      		 <a href="subject/3">CHEMISTRY</a>
+		                                      		 <a href="subject/4">BIOLOGY</a>
+		                                      		 <a href="subject/5">ORGANIC</a>
+		                                      		 <a href="subject/100">ALL</a>
+													 
+	                                    								 
+                                    			</ul>
+                                    	 	</div>
+                                    </li>
                                         </ul>
                                     </nav>
                                 </div>
