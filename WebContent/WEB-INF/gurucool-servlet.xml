@@ -23,5 +23,8 @@
 		<property name="prefix" value="/WEB-INF/jsp/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+	<bean 
+		class="com.tottacoder.gurucool.service.ClassService">
+	</bean>
  
 </beans>
